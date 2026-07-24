@@ -1,0 +1,16 @@
+{
+  "name": "local-schedule-background-site",
+  "version": "1.0.0",
+  "description": "Local Node.js site that changes background image by weekday/weekend and time schedule.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
