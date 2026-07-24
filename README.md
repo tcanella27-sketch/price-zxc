@@ -2,7 +2,9 @@
 
 1. Установите Node.js 18 или новее.
 2. Откройте папку `local_schedule_background_site` в терминале.
+''' bash 
 cd C:/путь к папке local_schedule_background_site
+'''
 
 3. Выполните:
 
