@@ -54,7 +54,14 @@ function isWeekendException(now = new Date()) {
 
 function isWeekendDay(now = new Date()) {
   const dayOfWeek = now.getDay();
-  return dayOfWeek === 0 || dayOfWeek === 6 || isWeekendException(now);
+
+  // Пятница, суббота и воскресенье считаются выходными
+  return (
+    dayOfWeek === 5 ||
+    dayOfWeek === 6 ||
+    dayOfWeek === 0 ||
+    isWeekendException(now)
+  );
 }
 
 function isMorning(now = new Date()) {
